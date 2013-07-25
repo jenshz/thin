@@ -1,4 +1,5 @@
 require 'etc'
+require 'rubygems'
 require 'daemons' unless Thin.win?
 
 module Process
